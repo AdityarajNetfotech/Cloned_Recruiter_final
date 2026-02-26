@@ -22,7 +22,7 @@ function JD() {
   const navigate = useNavigate();
 
   const rowsPerPage = 5;
-
+// some states and functions for incoming assigned JDs pagination
   const [incomingCurrentPage, setIncomingCurrentPage] = useState(1);
   const incomingRowsPerPage = 5;
 
